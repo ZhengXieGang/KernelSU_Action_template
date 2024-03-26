@@ -4,7 +4,7 @@ KERNEL_CONFIG=gts3llte_defconfig
 KERNEL_IMAGE_NAME=image
 ARCH=arm64
 
-ENABLE_CLANG=true
+ENABLE_CLANG=false
 USE_AOSP_CLANG=true
 AOSP_CLANG_SYSTEM=linux-x86
 AOSP_CLANG_BRANCH=master
@@ -38,7 +38,7 @@ KSU_EXPECTED_HASH=
 BUILD_KERNELSU_BOOT_IMG=true
 KERNELSU_SOURCE_BOOT_IMAGE=https://github.com/ZhengXieGang/KernelSU_Action_template/blob/main/boot.img
 
-DISABLE-LTO=false
+DISABLE-LTO=true
 DISABLE_CC_WERROR=false
 ADD_KPROBES_CONFIG=true
 ADD_OVERLAYFS_CONFIG=true
