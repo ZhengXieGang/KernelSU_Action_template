@@ -1,7 +1,7 @@
-KERNEL_SOURCE=https://github.com/LineageOS/android_kernel_xiaomi_sdm845
-KERNEL_SOURCE_BRANCH=lineage-21
-KERNEL_CONFIG=vendor/xiaomi/polaris.config
-KERNEL_IMAGE_NAME=image.gz
+KERNEL_SOURCE=https://github.com/awesometic/android_kernel_samsung_msm8996
+KERNEL_SOURCE_BRANCH=lineage-21.0-cfa
+KERNEL_CONFIG=configs/gts3llte_defconfig
+KERNEL_IMAGE_NAME=image
 ARCH=arm64
 
 ENABLE_CLANG=true
@@ -36,7 +36,7 @@ KERNELSU_TAG=main
 KSU_EXPECTED_SIZE=
 KSU_EXPECTED_HASH=
 BUILD_KERNELSU_BOOT_IMG=true
-KERNELSU_SOURCE_BOOT_IMAGE=https://files.catbox.moe/tdm7ay.img
+KERNELSU_SOURCE_BOOT_IMAGE=https://github.com/ZhengXieGang/KernelSU_Action_template/blob/main/boot.img
 
 DISABLE-LTO=false
 DISABLE_CC_WERROR=false
